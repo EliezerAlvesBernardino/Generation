@@ -1,0 +1,322 @@
+programa {
+  funcao inicio() {
+    /*
+         Atividade 01
+    Escreva um algoritmo em Portugol, que leia um número inteiro via 
+    teclado e mostre na tela uma mensagem indicando se este número é 
+    par ou ímpar e se o número é positivo ou negativo. Veja os exemplos abaixo:
+    
+
+    inteiro n1
+    escreva("Digite um numero: ")
+    leia(n1)
+
+    se(n1 % 2 == 0){
+      se(n1 >= 0){
+        escreva("Par e positivo")
+      }
+      se(n1 < 0){
+        escreva("Par e negativo")
+      }
+
+    }
+    se(n1 % 2 != 0){
+      se(n1 >= 0){
+        escreva("Impar e positivo")
+      }
+      se(n1 < 0){
+        escreva("impar e negativo")
+      }
+    }
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    /*
+           Atividade 2
+
+    Com base na tabela abaixo, escreva um algoritmo em Portugol 
+    que leia o código de um item (número inteiro de 1 a 6) e a 
+    quantidade comprada deste item (número inteiro). A seguir, 
+    mostre na tela o valor total da conta e nome do produto que 
+    foi comprado.
+    
+
+    inteiro opcao, qtdade
+    real total, preco 
+
+    escreva("\nCodigo do produto| Produto | Preço \n" )
+    escreva("\n1.  Cachorro-quente  R$ 10,00")
+    escreva("\n2.  X-Salada         R$ 15.00")
+    escreva("\n3.  X-Bacon          R$ 18.00")
+    escreva("\n4.  Bauru            R$ 12.00")
+    escreva("\n5.  Refrigerante     R$ 8.00")
+    escreva("\n6.  Suco de laranja  R$ 13.00")
+
+    escreva("\nCódigo do Produto: ")
+    leia(opcao)
+
+    escreva("\nQual a quantidade ? ")
+    leia(qtdade)
+
+    escolha(opcao)
+    {
+      caso 1:
+        preco = 10.00
+        total = qtdade * preco
+        escreva("O valor do cachorro quente é R$: ", total)
+
+      pare 
+
+      caso 2: 
+        preco = 15.00
+        total = qtdade * preco
+        escreva("O valor do X-salada é R$: ", total)
+
+      pare
+
+      caso 3:
+        preco = 18.00
+        total = qtdade * preco
+        escreva("O valor do X-Bacon é R$: ", total)
+
+      pare
+
+      caso 4:
+        preco = 12.00
+        total = qtdade * preco
+        escreva("O valor do Bauru é R$: ", total)
+
+      pare
+
+      caso 5:
+        preco = 08.00
+        total = qtdade * preco
+        escreva("O valor do Refrigerante é R$: ", total)
+
+      pare
+
+      caso 6: 
+        preco = 13.00
+        total = qtdade * preco
+        escreva("O valor do Suco de laranja é R$: ", total)
+
+      pare
+
+      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*
+
+                Atividade 3
+
+      Escreva um algoritmo em Portugol, que leia a idade de uma pessoa
+       (número inteiro) e apresente na tela se a pessoa está ou não apta 
+       a votar e se seu voto é obrigatório ou facultativo, conforme a tabela
+        abaixo:
+    
+
+
+        inteiro idade
+
+        escreva("Digite a idade: ")
+        leia(idade)
+
+        se(idade >= 16 e idade < 18) 
+        {
+          escreva("A pessoa está apta a votar e o voto é facultativo. ")
+        }
+
+        senao se(idade >= 18 e idade < 65) 
+        {
+          escreva("A pessoa está apta a votar e o voto é obrigatório. ")
+        }
+
+        senao se(idade >= 65)
+        {
+          escreva("A pessoa está apta a votar e o voto é facultativo. ")
+        }
+
+        senao {
+          escreva("A pessoa não está apta a votar.")
+        }
+
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+
+                    Atividade 4
+
+
+        Escreva um algoritmo em Portugol, que leia um valor com duas casas decimais, 
+        equivalente ao salário de uma pessoa. Em seguida, calcule e mostre o valor 
+        que esta pessoa deve pagar de Imposto de Renda ou Isento, segundo a tabela abaixo:
+          
+
+          real salario, imposto
+
+          escreva("De R$ 0.00 a R$ 2000.00 -----> Isento\n")
+          escreva("De R$ 2000.01 a R$ 3000.00 --> 8%\n")
+          escreva("De R$ 3000.01 a R$ 4500.00 --> 18%\n")
+          escreva("Acima de R$ 4500.00 ---------> 28%\n")
+          escreva("\n")
+
+          escreva("Digite o valor do salário: ")
+          leia(salario)
+
+
+          se(salario <= 2000.00){
+            escreva("Imposto de renda R$" + (0.00 / 100) salario)
+          } senao se(salario >= 2000.01 e salario <= 3000.00){
+            escreva("Imposto de renda R$" + (8.00 / 100) * salario)
+          } senao se(salario >= 3000.01 e salario <= 4500.00){
+            escreva("Imposto de renda R$" + (18.00 / 100) * salario)
+          }senao{
+            escreva("Imposto de renda R$" + (28.00 / 100) * salario)
+          }
+          }
+          */
+
+
+
+
+
+
+
+
+
+
+
+
+
+          /*
+                                Atividade 5
+
+
+          Escreva um algoritmo em Portugol, que leia 3 palavras (cadeia),
+           que definem as características de um tipo de animal possível 
+           segundo o diagrama abaixo, que deve ser lido da esquerda para
+            a direita.
+          */
+
+          cadeia caract1, caract2, caract3
+
+          escreva("Digite a primeira característica: ")
+          leia(caract1)
+
+          escreva("Digite a segunda característica: ")
+          leia(caract2)
+
+          escreva("Digite a terceira característica: ")
+          leia(caract3)
+
+          se(caract1 == "VERTEBRADO" e caract2 == "AVE" e caract3 == "CARNIVORO"){
+            escreva("Águia")
+          }senao se(caract1 == "VERTEBRADO" e caract2 == "AVE" e caract3 == "ONIVORO"){
+            escreva("Pomba")
+          }senao se(caract1 == "VERTEBRADO" e caract2 == "MAMIFERO" e caract3 == "ONIVORO"){
+            escreva("Homem")
+          }senao se(caract1 == "VERTEBRADO" e caract2 == "MAMIFERO" e caract3 == "HERBIVORO"){
+            escreva("Vaca")
+          }senao se(caract1 == "INVERTEBRADO" e caract2 == "INSETO" e caract3 == "HEMATOFAGO"){
+            escreva("Pulga")
+          }senao se(caract1 == "INVERTEBRADO" e caract2 == "INSETO" e caract3 == "HERBIVORO"){
+            escreva("Lagarta")
+          }senao se(caract1 == "INVERTEBRADO" e caract2 == "ANELIDIO" e caract3 == "HEMATOFAGO"){
+            escreva("Sanguessuga")
+          }senao (caract1 == "INVERTEBRADO" e caract2 == "ANELIDIO" e caract3 == "ONIVORO"){
+            escreva("Minhoca")
+          }
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
