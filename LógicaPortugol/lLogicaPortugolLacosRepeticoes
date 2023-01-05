@@ -1,0 +1,82 @@
+programa{
+  
+  funcao inicio(){
+
+/*
+          Atividade 1
+
+    Escreva um algoritmo, que leia um número
+    inteiro via teclado entre 1 e 10 e mostre
+    na tela a tabuada deste número. Utilize o
+    Laço de Repetição enquanto para resolver
+    o exercício. Veja os exemplos abaixo:
+*/
+    inteiro x, i
+    
+    faca{
+      escreva("Digite um valor de 0 a 10 para obter a tabuada: ")
+      leia(x)
+    }enquanto(x <= 0 ou x > 10)
+
+
+    para(i = 0; i <= 10; i++){
+      escreva(x, " * ", i, " = ", x * i,"\n")
+    }
+    */
+
+
+  
+
+  /*
+                    
+                    Atividade 2
+  
+  Escreva um algoritmo, que leia 2 números inteiros via teclado,
+  onde o primeiro número deve ser menor do que o segundo número.
+  Caso contrário, deve ser exibida uma mensagem na tela informando
+  que o intervalo é inválido e sair do programa. Dentro do intervalo
+  informado intervalo, mostre na tela todes os números que são
+  múltiplos de 3 e 5. Veja os exemplos abaixo:
+  inteiro num1, num2
+
+  escreva("Digite o numero do intervalo: ")
+  leia(num1)
+
+  escreva("Digite o numero do intervalo: ")
+  leia(num2)
+
+  se(num1 < num2) 
+  {
+    para(inteiro contador = num1; contador <= num2; contador++) 
+    {
+      se(num1 % 3 == 0 e num1 % 5 == 0) {
+        escreva(num1, " é múltiplo de 3 e 5 \n")
+      }
+      num1++
+    }  senao {
+      escreva("intervalo invalido")
+    }
+  }
+  */
+
+/*
+            Atividade 6
+  Escreva um algoritmo, que leia números inteiros via teclado,
+  até que o número zero seja digitado. Ao final, mostre na tela
+  a soma de todos os números digitados, que sejam positivos.
+  Veja o exemplo abaixo:
+  inteiro soma = 0
+  inteiro numero
+
+  faca {
+    escreva("Digite um numero: ")
+    leia(numero)
+    se(numero > 10) {
+      soma += numero
+    }
+  }enquanto (numero <= 10)
+  escreva("A soma dos numeros positivos é: ", soma)
+  
+*/
+  }
+}
