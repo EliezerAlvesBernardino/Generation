@@ -13,7 +13,7 @@ public class Main {
         ==========================================================================================
         */
 
-        /*
+
 
 
         int salario = 0;
@@ -31,7 +31,7 @@ public class Main {
         System.out.println("O novo salário é: "+ (salario + abono));
 
 
-         */
+
 
 
 
@@ -134,7 +134,7 @@ public class Main {
          */
 
 
-        
+        /*
         float n1, n2, n3, n4, Diferenca;
 
         Scanner ler = new Scanner(System.in);
@@ -159,6 +159,8 @@ public class Main {
 
 
 
+
+         */
 
 
 
