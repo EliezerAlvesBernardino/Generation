@@ -144,6 +144,8 @@ public class AtividadesEntrega {
                 total = qtdade * preco;
                 System.out.println("O valor do suco de Laranja é de R$: " + total);
                 break;
+            break:
+                System.out.println("\n Opção inválida! Digite novamente.");
 
         }
 

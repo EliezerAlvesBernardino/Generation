@@ -59,7 +59,8 @@ public class Atividade_03 {
                 total = qtdade * preco;
                 System.out.println("O valor do suco de Laranja é de R$: " + total);
                 break;
-
+            default:
+                System.out.println("\n Opção inválida! Digite novamente.");
         }
     }
 }
