@@ -3,6 +3,7 @@ package LacosRepeticoes;
 public class Aula {
 
     public static void main(String[] args){
+        /*
         System.out.println("HELLO WORLD!");
         int contador;
 
@@ -12,5 +13,17 @@ public class Aula {
         }
         System.out.println("Lá na fazendinha!");
         System.out.println(contador);
+
+         */
+
+        //enquanto
+        int contador = 0;
+
+        while (contador < 3){
+            System.out.println("Hoje vai dar bom!");
+            contador ++;
+        }
+
+
     }
 }
