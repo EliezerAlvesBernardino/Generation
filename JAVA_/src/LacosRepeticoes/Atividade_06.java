@@ -17,7 +17,7 @@ public class Atividade_06 {
         int num  = 0;
         int soma = 0;
         int cont = 0;
-        float media = 0;
+        double media = 0;
 
         Scanner ler = new Scanner(System.in);
 
