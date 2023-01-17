@@ -91,7 +91,7 @@ public class Aula {
             System.out.println("\nO resultado da multiplicação é: " + resultado);
 
         } while (contador <= 2);
-        
+
 
     }
 }

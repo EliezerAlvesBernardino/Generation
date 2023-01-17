@@ -1,11 +1,20 @@
 package aula_metodos;
 
+import gatos.Gato;
+
 import static aulaMetodos.pacote1.ClassePacote1.*;
 
 public class TestarMetodos {
 
     public static void main(String[] args){
 
+        Gato gat = new Gato();
+        gat.
+
+
+
+
+        /*
         //Chamadas dos Métodos criados na Classe TstarMetodos
         metodoPublico();
         metodoFriendly();
@@ -56,5 +65,5 @@ public class TestarMetodos {
     //Método Private
     private static void metodoPrivado(){
         System.out.println("Método Privado - Classe Testa Métodos");
-    }
+    }*/
 }
