@@ -2,19 +2,63 @@ package Atividade_01;
 
 public class Cliente {
     public String nome;
-    public int idade;
-    public int rg;
+    public int    idade;
+    public int    rg;
     public String banco;
-    public int conta;
+    public int    conta;
 
 
 
 
     public Cliente(String nome, int idade, int rg, String banco, int conta){
-        this.nome = nome;
+        this.nome  = nome;
         this.idade = idade;
-        this.rg = rg;
+        this.rg    = rg;
         this.banco = banco;
+        this.conta = conta;
+    }
+
+    public Cliente(){
+
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getRg() {
+        return rg;
+    }
+
+    public void setRg(int rg) {
+        this.rg = rg;
+    }
+
+    public String getBanco() {
+        return banco;
+    }
+
+    public void setBanco(String banco) {
+        this.banco = banco;
+    }
+
+    public int getConta() {
+        return conta;
+    }
+
+    public void setConta(int conta) {
         this.conta = conta;
     }
 
